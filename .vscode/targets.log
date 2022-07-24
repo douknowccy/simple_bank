@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Mon Jul 18 22:01:10 2022
+# Make data base, printed on Sun Jul 24 21:07:23 2022
 
 # Variables
 
@@ -47,11 +47,15 @@ FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 TMP = C:\Users\Falco\AppData\Local\Temp
 # environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
 PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_CWD = C:\Users\Falco\Desktop
+VSCODE_CWD = C:\Users\Falco\AppData\Local\Programs\Microsoft VS Code
+# environment
+GOPROXY = https://proxy.golang.org,direct
 # environment
 PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\Falco\scoop\shims;C:\Users\Falco\AppData\Local\Microsoft\WindowsApps;C:\Users\Falco\AppData\Roaming\npm;F:\IntelliJ IDEA Community Edition 2021.2.2\bin;C:\Users\Falco\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Falco\go\bin;
 # environment
@@ -73,11 +77,12 @@ NUMBER_OF_PROCESSORS = 12
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
-.FEATURES := target-specific order-only second-expansion else-if archives
+.FEATURES := target-specific order-only seco 
+nd-expansion else-if archives
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15236_WJPUEHYRTZTKANYT
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13792_GQGSLPLQLZQWNUCK
 # environment
 COMPUTERNAME = DESKTOP-8LH2V3I
 # environment
@@ -91,7 +96,7 @@ USERNAME = Falco
 # environment
 PUBLIC = C:\Users\Public
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+GOMODCACHE = C:\Users\Falco\go\pkg\mod
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\Falco\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # environment
@@ -124,7 +129,8 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 LOCALAPPDATA = C:\Users\Falco\AppData\Local
 # environment
 PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
-# default
+# defau 
+lt
 MAKE_COMMAND := make.exe
 # environment
 PROCESSOR_ARCHITEW6432 = AMD64
@@ -185,11 +191,11 @@ PROCESSOR_LEVEL = 25
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 15236
+VSCODE_PID = 13792
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-8LH2V3I
 # variable set hash-table stats:
-# Load=88/1024=9%, Rehash=0, Collisions=9/109=8%
+# Load=90/1024=9%, Rehash=0, Collisions=10/111=9%
 
 # Pattern-specific Variable Values
 
@@ -201,10 +207,11 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-8LH2V3I
 # C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1658061201): 13 files, no impossibilities.
 # C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1647941759): 4 files, no impossibilities.
 # F:\IntelliJ IDEA Community Edition 2021.2.2\bin (key F:/IntelliJ IDEA Community Edition 2021.2.2/bin, mtime 1632844316): 31 files, no impossibilities.
-# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1632759872): 33 files, no impossibilities.
+# C: 
+\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1632759872): 33 files, no impossibilities.
 # C:\Users\Falco\AppData\Roaming\npm (key C:/Users/Falco/AppData/Roaming/npm, mtime 1648909475): 21 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1657806091): 172 files, no impossibilities.
-# . (key c:/Users/Falco/Desktop/simplebank, mtime 1658152470): 7 files, no impossibilities.
+# . (key c:/Users/Falco/Desktop/simplebank, mtime 1658155964): 9 files, no impossibilities.
 # C:\Users\Falco\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Falco/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1657965694): 4 files, no impossibilities.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1632761639): 10 files, no impossibilities.
 # C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1632767189): 13 files, no impossibilities.
@@ -213,18 +220,19 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-8LH2V3I
 # C:\Users\Falco\scoop\shims (key C:/Users/Falco/scoop/shims, mtime 1658145300): 7 files, no impossibilities.
 # C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
 # C:\Windows (key C:/Windows, mtime 1657806090): 117 files, no impossibilities.
-# C:\Users\Falco\AppData\Local\Microsoft\WindowsApps (key C:/Users/Falco/AppData/Local/Microsoft/WindowsApps, mtime 1658150853): 19 files, no impossibilities.
-# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1652147740): 8 files, no impossibilities.
+# C:\Users\Falco\AppData\Local\Microsoft\WindowsApps (key C:/Users/Falco/AppData/Local/Microsoft/WindowsApps, mtime 1658489026): 21 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C: 
+/Program Files/dotnet/, mtime 1652147740): 8 files, no impossibilities.
 # C:\Users\Falco\go\bin (key C:/Users/Falco/go/bin, mtime 1658149798): 4 files, no impossibilities.
 # C:\Python39\ (key C:/Python39/, mtime 1632767353): 18 files, no impossibilities.
 # C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1632767814): 8 files, no impossibilities.
 # C:\Python39\Scripts\ (key C:/Python39/Scripts/, mtime 1632767353): 5 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1648295662): 8 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1658148944): 3045 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1658489253): 3045 files, no impossibilities.
 # C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1632760971): 5 files, no impossibilities.
 # C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1658147011): 5 files, no impossibilities.
 
-# 3574 files, no impossibilities in 26 directories.
+# 3578 files, no impossibilities in 26 directories.
 
 # Implicit Rules
 
@@ -235,8 +243,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-8LH2V3I
 postgres:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
-#  File 
- does not exist.
+#  File does not exist.
 #  File has not been updated.
 #  commands to execute (from `makefile', line 7):
 	docker run --name postgres --network bank-network -p 5432:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -d postgres:14-alpine
@@ -246,7 +253,8 @@ network:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
-#  File has not been updated.
+#  File has not b 
+een updated.
 #  commands to execute (from `makefile', line 4):
 	docker network create bank-network
 	
@@ -280,7 +288,7 @@ sqlc:
 #  File does not exist.
 #  File has not been updated.
 #  commands to execute (from `makefile', line 37):
-	sqlc generate
+	docker run --rm -v C:\Users\Falco\Desktop\simplebank:/src -w /src kjconroy/sqlc generate
 	
 
 # Not a target:
@@ -332,15 +340,15 @@ db_schema:
 	dbml2sql --postgres -o doc/schema.sql doc/db.dbml
 	
 
-# Not a target:
+# Not a ta 
+rget:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-18 21:44:55
+#  Last modified 2022-07-18 22:30:18
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0 
-%
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 createdb:
 #  Phony target (prerequisite of .PHONY).
@@ -379,8 +387,7 @@ dropdb:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
-#  File has not  
-been updated.
+#  File has not been updated.
 #  commands to execute (from `makefile', line 16):
 	docker exec -it postgres dropdb simple_bank
 	
@@ -442,7 +449,7 @@ mock:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Jul 18 22:01:10 2022
+# Finished Make data base on Sun Jul 24 21:07:23 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.
